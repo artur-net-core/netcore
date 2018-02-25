@@ -4,7 +4,8 @@ namespace Passenger.Core.Models
 {
     public class Vehicle
     {
-        public Guid Id { get; protected set; }
-        
+        public string Brand { get; set; }
+        public string Name { get; set; }
+        public int Seats { get; set; }        
     }
 }
